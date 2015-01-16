@@ -29,6 +29,9 @@ set ignorecase
 " Show line numbers
 set nu
 
+" Change tab to 4 spaces
+set expandtab
+
 " Execute pathogen
 execute pathogen#infect()
 
