@@ -35,5 +35,11 @@ set expandtab
 " Execute pathogen
 execute pathogen#infect()
 
+" Close Vim if the only window left open is a NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Open NERDTree automatically when vim starts up
+autocmd vimenter * NERDTree
+
 " Call vim-flak8 after save any python file
 autocmd BufWritePost *.py call Flake8()
