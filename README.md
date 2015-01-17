@@ -7,7 +7,7 @@
 * [Plugins](#plugins)
     * [NERDTree](#nerdtree)
     * [Molokai](#molokai)
-    * [Fugitive](#fuditive)
+    * [Fugitive](#fugitive)
     * [Airline](#airline)
     * [Commentary](#commentary)
 
