@@ -115,7 +115,7 @@ set titleold="Terminal"
 set titlestring=%F
 
 "*****************************************************************************
-"" Shortcuts to you don't hate yout shift :)
+"" Shortcuts to you don't hate your shift :)
 "*****************************************************************************
 cnoreabbrev W! w!
 cnoreabbrev Q! q!
