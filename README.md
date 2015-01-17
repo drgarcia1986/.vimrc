@@ -1,6 +1,16 @@
 # ~/.vimrc
 
 ## Index
+
+* [Instalation](#instalation)
+* [Custom commands shortcut](#custom-commands-shortcut)
+* [Plugins](#plugins)
+    * [NERDTree](#nerdtree)
+    * [Molokai](#molokai)
+    * [Fugitive](#fuditive)
+    * [Airline](#airline)
+    * [Commentary](#commentary)
+
 ## Installation
 Get the .vimrc file
 ```bash

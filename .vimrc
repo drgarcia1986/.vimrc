@@ -34,7 +34,7 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-commentary'
 
-
+filetype plugin indent on
 call neobundle#end()
 
 NeoBundleCheck
@@ -78,7 +78,6 @@ set nobackup
 set noswapfile
 
 set fileformats=unix,dos,mac
-set backspace=indent,eol,start
 set showcmd
 set shell=/bin/sh
 
@@ -102,9 +101,6 @@ set scrolloff=3
 
 "" Status bar
 set laststatus=2
-
-"" allow backspacing over everything in insert mode
-set backspace=indent,eol,start
 
 "" Use modeline overrides
 set modeline
