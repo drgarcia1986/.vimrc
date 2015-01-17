@@ -1,8 +1,11 @@
 # ~/.vimrc
 
+This is my ``.vimrc`` file.
+
 ## Index
 
 * [Instalation](#instalation)
+* [Cool commands](#cool-commands)
 * [Custom commands shortcut](#custom-commands-shortcut)
 * [Plugins](#plugins)
     * [NERDTree](#nerdtree)
@@ -10,17 +13,23 @@
     * [Fugitive](#fugitive)
     * [Airline](#airline)
     * [Commentary](#commentary)
+* [References](#references)
 
 ## Installation
 Get the .vimrc file
 ```bash
 curl https://raw.githubusercontent.com/drgarcia1986/.vimrc/master/.vimrc > ~/.vimrc
 ```
-And open vim :). If plugins doens install, run this command
+And open vim :). If plugins doens install, run this command:
 ```bash
 vim +NeoBundleInstall +qall
 ```
-
+## Cool commands
+### Folders
+| Command | Descriptions |
+|---------|--------------|
+| zf10j | Make a folder in next 10 lines |
+| zo | Open folder |
 ## Custom commands shortcut
 
 ## Plugins
@@ -29,7 +38,7 @@ NERDTree is a plugin for allows you to explore your file system and open your fi
 For more infos: https://github.com/scrooloose/nerdtree
 
 #### Some commands
-| Command | Descritions |
+| Command | Descriptions |
 |---------|-------------|
 | t | Open the selected file in a new tab |
 | i | Open the selected file in a horizontal split window |
@@ -40,7 +49,7 @@ For more infos: https://github.com/scrooloose/nerdtree
 | ? | Quick help |
 
 #### Custom commands
-| Command | Descritions | Original |
+| Command | Descriptions | Original |
 |---------|-------------|----------|
 | F2 | Open tree navigate in actual opened file | :NERDTreeFind |
 | F3 | Open/Close tree navigate files | :NERDTreeToggle |
@@ -59,7 +68,7 @@ Fugite is a plugin for integration with Git command line tool.
 For more information: https://github.com/tpope/vim-fugitive
 
 #### Some commands 
-| Command | Descritions | Original |
+| Command | Descriptions | Original |
 |---------|-------------|----------|
 | ,ga | git add .  | :!git add . | 
 | ,gc | git commit -m '' | :!git commit -m '' |
@@ -79,10 +88,14 @@ Vim-Commentary is a plugin that helps to comment code like a ninja LOL.
 For more information: https://github.com/tpope/vim-commentary
 
 #### Some commands
-| Command | Descritions |
+| Command | Descriptions |
 |---------|-------------|
 | :5,21Commentary | Comment range of line start 5 end 21 |
 | :g/TODO/Commentary | Comment TODO in global invocation |
 | gcc | Comment line |
 | gcgc | Uncomments |
-| gcap | Comment paragraph | 
+| gcap | Comment paragraph |
+
+## References
+[Vim Bootstrap](https://github.com/avelino/vim-bootstrap)
+[Vim Cheatsheet](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) 
