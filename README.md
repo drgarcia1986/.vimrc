@@ -11,6 +11,7 @@ This is my ``.vimrc`` file.
     * [NERDTree](#nerdtree)
     * [Molokai](#molokai)
     * [Fugitive](#fugitive)
+    * [Gitgutter](#gitgutter)
     * [Airline](#airline)
     * [Commentary](#commentary)
 * [References](#references)
@@ -25,6 +26,12 @@ And open vim :). If plugins doens install, run this command:
 vim +NeoBundleInstall +qall
 ```
 ## Cool commands
+### Diff
+| Command | Descriptions |
+|---------|--------------|
+| :diffsplit {filename} | Open new window with diffs of current file and file of {filename} |
+| :diffoff | Disable diff mode |
+
 ### Folders
 | Command | Descriptions |
 |---------|--------------|
@@ -66,6 +73,10 @@ For more infos: https://github.com/tomasr/molokai
 ### Fugitive
 Fugite is a plugin for integration with Git command line tool.
 For more information: https://github.com/tpope/vim-fugitive
+
+### Gitgutter
+Gitgutter is a plugin to show git diff in sign column (with **+** for new lines and **-** for remove lines).
+For more information https://github.com/airblade/vim-gitgutter
 
 #### Some commands 
 | Command | Descriptions | Original |

@@ -33,6 +33,7 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-commentary'
+NeoBundle 'airblade/vim-gitgutter'
 
 filetype plugin indent on
 call neobundle#end()
