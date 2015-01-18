@@ -29,6 +29,7 @@
     * [Jedi](#jedi)
     * [TagBar](#tagbar)
     * [IndentLine](#indentline)
+    * [Ctrlp](#ctrlp)
 * [References](#references)
 
 ## Installation
@@ -146,7 +147,7 @@ UltiSnips is a powerful plugin to complete code.
 For more infos: https://github.com/SirVer/ultisnips
 
 ### Vim Snippets
-Vim snippets is plugin with collections of code snips (working with [UltiSnips](#ultisnips).
+Vim snippets is plugin with collections of code snips (working with [UltiSnips](#ultisnips)).
 For more infos: https://github.com/honza/vim-snippets
 
 ### Jedi
@@ -174,6 +175,16 @@ For more infos: https://github.com/majutsushi/tagbar
 ### IndentLine
 IndentLine is a plugin used for displaying thin vertical lines at each indentation level.
 For more infos: https://github.com/Yggdroot/indentLine
+
+### CtrlP
+CtrlP is a plugin to find files inside Vim.
+For more infos: https://github.com/kien/ctrlp.vim
+
+#### Custom commands
+| Command | Descriptions | Original |
+|---------|-------------|----------|
+| ,e | Find and open File  | :CtrlP |
+| ,b | Find file on buffer | :CtrlpBuffer |
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />
