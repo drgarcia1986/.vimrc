@@ -14,12 +14,15 @@ This is my ``.vimrc`` file.
     * [Gitgutter](#gitgutter)
     * [Airline](#airline)
     * [Commentary](#commentary)
+    * [Syntastic](#syntastic)
+    * [VimProc](#vim-proc)
+    * [VimShell](#vim-shell)
 * [References](#references)
 
 ## Installation
 Get the .vimrc file
 ```bash
-curl https://raw.githubusercontent.com/drgarcia1986/.vimrc/master/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/drgarcia1986/.vimrc/master/.vimrc -o ~/.vimrc
 ```
 And open vim :). If plugins doens install, run this command:
 ```bash
@@ -72,11 +75,11 @@ For more infos: https://github.com/tomasr/molokai
 
 ### Fugitive
 Fugite is a plugin for integration with Git command line tool.
-For more information: https://github.com/tpope/vim-fugitive
+For more infos: https://github.com/tpope/vim-fugitive
 
 ### Gitgutter
-Gitgutter is a plugin to show git diff in sign column (with **+** for new lines and **-** for remove lines).
-For more information https://github.com/airblade/vim-gitgutter
+Gitgutter is a plugin to show git diff in sign column (with **+** for new lines, **~** for change lines, and **-** for remove lines).
+For more infos: https://github.com/airblade/vim-gitgutter
 
 #### Some commands 
 | Command | Descriptions | Original |
@@ -96,7 +99,7 @@ For more infos: https://github.com/bling/vim-airline
 
 ### Commentary
 Vim-Commentary is a plugin that helps to comment code like a ninja LOL.
-For more information: https://github.com/tpope/vim-commentary
+For more infos: https://github.com/tpope/vim-commentary
 
 #### Some commands
 | Command | Descriptions |
@@ -107,6 +110,24 @@ For more information: https://github.com/tpope/vim-commentary
 | gcgc | Uncomments |
 | gcap | Comment paragraph |
 
+### Syntastic
+Syntastic is a plugin than show errors and warnings in code syntax.
+For more infos: https://github.com/scrooloose/syntastic
+
+### Vim Proc
+Vim Proc is a plugin to interatic command execution in Vim (necessary for [Vim Shell](#vim-shell)).
+For more infos: https://github.com/Shougo/vimproc.vim
+
+### Vim Shell
+Vim Shell is a plugin to open a extreme shell inside Vim.
+For more infos: https://github.com/Shougo/vimshell.vim
+
+#### Custom commands
+| Command | Descriptions | Original |
+|---------|-------------|----------|
+| ,sh | :VimShellCreate  | Create a VimShell tab |
+
 ## References
-[Vim Bootstrap](https://github.com/avelino/vim-bootstrap)
-[Vim Cheatsheet](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf) 
+[Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />
+[Vim Cheatsheet](https://cloud.github.com/downloads/ahrencode/Miscellaneous/vim-cheatsheet.pdf)<br />
+[Vim Doc](http://vimdoc.sourceforge.net/htmldoc/)
