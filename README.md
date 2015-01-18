@@ -169,7 +169,7 @@ For more infos: https://github.com/majutsushi/tagbar
 #### Custom commands
 | Command | Descriptions | Original |
 |---------|-------------|----------|
-| <F4> | Open TagBar  | :TagbarToggle |
+| F4 | Open TagBar  | :TagbarToggle |
 
 ### IndentLine
 IndentLine is a plugin used for displaying thin vertical lines at each indentation level.
