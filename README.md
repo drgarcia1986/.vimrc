@@ -58,7 +58,7 @@ vim +NeoBundleInstall +qall
 | Command | Descriptions |
 |---------|--------------|
 | ,S | Remove trailing whitespaces |
-| YY | Copy to clipboard (maybe need instal vim-gtk ``sudo apt-get install vim-gtk``|
+| YY | Copy to clipboard (maybe need install vim-gtk ``sudo apt-get install vim-gtk``)|
 | P | Past from clipboard |
 | XX | Cut to clipboard |
 
