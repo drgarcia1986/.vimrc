@@ -164,6 +164,21 @@ endif
 
 nnoremap <silent> <leader>S :call TrimWhiteSpace()<cr>:let @/=''<CR>
 
+"" Copy/Paste/Cut
+if has('unnamedplus')
+	set clipboard=unnamed,unnamedplus
+endif
+
+noremap YY "+y<CR>
+noremap P "+gP<CR>
+noremap XX "+x<CR>
+
+if has('macunix')
+  " pbcopy for OSX copy/paste
+  vmap <C-x> :!pbcopy<CR>
+  vmap <C-c> :w !pbcopy<CR><CR>
+endif
+
 "*****************************************************************************
 " Plugins Settings
 "*****************************************************************************
