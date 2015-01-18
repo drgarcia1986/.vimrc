@@ -44,12 +44,18 @@ NeoBundle 'Shougo/vimproc.vim', {
       \    },
       \ }
 NeoBundle 'Shougo/vimshell.vim'
+NeoBundle 'SirVer/ultisnips'
+NeoBundle 'honza/vim-snippets'
 
-filetype plugin indent on
+" Python Bundle
+NeoBundle "davidhalter/jedi-vim"
+NeoBundle "majutsushi/tagbar"
+NeoBundle "Yggdroot/indentLine"
+
 call neobundle#end()
-
 NeoBundleCheck
 
+filetype plugin indent on
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
@@ -136,6 +142,28 @@ cnoreabbrev Q q
 cnoreabbrev Qall qall
 
 "*****************************************************************************
+" Custom Settings 
+"*****************************************************************************
+" vim-python
+augroup vimrc-python
+  autocmd!
+  autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8 colorcolumn=79
+      \ formatoptions+=croq softtabstop=4 smartindent
+      \ cinwords=if,elif,else,for,while,try,except,finally,def,class,with
+augroup END
+
+"" Remove trailing whitespace on <leader>S
+if !exists('*TrimWhiteSpace')
+  function TrimWhiteSpace()
+    let @*=line(".")
+    %s/\s*$//e
+    ''
+  endfunction
+endif
+
+nnoremap <silent> <leader>S :call TrimWhiteSpace()<cr>:let @/=''<CR>
+
+"*****************************************************************************
 " Plugins Settings
 "*****************************************************************************
 "" NERDTree
@@ -186,8 +214,29 @@ let g:syntastic_style_error_symbol = '✗'
 let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
+let g:syntastic_python_checkers=['python', 'flake8']
+let g:airline#extensions#tagbar#enabled = 1
 
 "" Vim Shell
 let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
 let g:vimshell_prompt =  '$ '
 nnoremap <silent> <leader>sh :VimShellCreate<CR>
+
+"" Ultisnips 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+let g:UltiSnipsEditSplit="vertical"
+
+" jedi-vim
+let g:jedi#popup_on_dot = 0
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = "<leader>d"
+let g:jedi#documentation_command = "K"
+let g:jedi#usages_command = "<leader>n"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#show_call_signatures = "0"
+
+" Tagbar
+nmap <silent> <F4> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1

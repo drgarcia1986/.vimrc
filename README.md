@@ -24,6 +24,11 @@
     * [Syntastic](#syntastic)
     * [VimProc](#vim-proc)
     * [VimShell](#vim-shell)
+    * [UltiSnips](#ultisnpis)
+    * [Vim Snippets](#vim-snippets)
+    * [Jedi](#jedi)
+    * [TagBar](#tagbar)
+    * [IndentLine](#indentline)
 * [References](#references)
 
 ## Installation
@@ -48,6 +53,8 @@ vim +NeoBundleInstall +qall
 | zf10j | Make a folder in next 10 lines |
 | zo | Open folder |
 ## Custom commands shortcut
+| Command | Descriptions |
+| ,S | Remove trailing whitespaces |
 
 ## Plugins
 ### NERDTree
@@ -74,7 +81,7 @@ For more infos: https://github.com/scrooloose/nerdtree
 | TAB | Next tab | :tabn |
 | SHIFT + TAB | previous tab navigate | :tabp |
 | CTRL+w + arrow | Navigate Navigation in split panels |
-| CTRL +w +W | Set focus on NERDTree |
+| CTRL +w+w | Set focus on NERDTree |
 
 ### Molokai 
 Molokai is a plugin for theme color. 
@@ -132,7 +139,41 @@ For more infos: https://github.com/Shougo/vimshell.vim
 #### Custom commands
 | Command | Descriptions | Original |
 |---------|-------------|----------|
-| ,sh | :VimShellCreate  | Create a VimShell tab |
+| ,sh | Create a VimShell tab | :VimShellCreate |
+
+### UltiSnips
+UltiSnips is a powerful plugin to complete code.
+For more infos: https://github.com/SirVer/ultisnips
+
+### Vim Snippets
+Vim snippets is plugin with collections of code snips (working with [UltiSnips](#ultisnips).
+For more infos: https://github.com/honza/vim-snippets
+
+### Jedi
+Jedi is a plugin to python autocompletion.
+For more infos: https://github.com/davidhalter/jedi-vim
+
+#### Some commands
+| Command | Descriptions | 
+|---------|-------------|
+| Shift+k  | Open method/class documentation |
+| Ctrl+space | Autocomple |
+| ,d | Go to the Class/Method definition | 
+| ,r | Rename object definition | 
+| ,n | Show where command is usage | 
+
+### TagBar
+TagBar is a plugin to show class and methods definitions on side bar.
+For more infos: https://github.com/majutsushi/tagbar
+
+#### Custom commands
+| Command | Descriptions | Original |
+|---------|-------------|----------|
+| <F4> | Open TagBar  | :TagbarToggle |
+
+### IndentLine
+IndentLine is a plugin used for displaying thin vertical lines at each indentation level.
+For more infos: https://github.com/Yggdroot/indentLine
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />
