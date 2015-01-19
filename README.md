@@ -11,7 +11,7 @@
 ```
 ## Index
 
-* [Instalation](#instalation)
+* [Installation](#installation)
 * [Cool commands](#cool-commands)
 * [Custom commands shortcut](#custom-commands-shortcut)
 * [Plugins](#plugins)
