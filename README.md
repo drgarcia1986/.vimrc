@@ -61,6 +61,7 @@ vim +NeoBundleInstall +qall
 | YY | Copy to clipboard (maybe need install vim-gtk ``sudo apt-get install vim-gtk``)|
 | P | Past from clipboard |
 | XX | Cut to clipboard |
+| ,. | Set current dir as working dir |
 
 ## Plugins
 ### NERDTree

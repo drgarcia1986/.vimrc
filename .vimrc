@@ -179,6 +179,9 @@ if has('macunix')
   vmap <C-c> :w !pbcopy<CR><CR>
 endif
 
+"" Set working directory
+nnoremap <leader>. :lcd %:p:h<CR>
+
 "*****************************************************************************
 " Plugins Settings
 "*****************************************************************************
