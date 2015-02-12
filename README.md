@@ -24,12 +24,13 @@
     * [Syntastic](#syntastic)
     * [VimProc](#vim-proc)
     * [VimShell](#vim-shell)
-    * [UltiSnips](#ultisnpis)
+    * [UltiSnips](#ultisnips)
     * [Vim Snippets](#vim-snippets)
     * [Jedi](#jedi)
     * [TagBar](#tagbar)
     * [IndentLine](#indentline)
     * [Ctrlp](#ctrlp)
+	* [Ack](#ack)
 * [References](#references)
 
 ## Installation
@@ -98,10 +99,6 @@ For more infos: https://github.com/tomasr/molokai
 Fugite is a plugin for integration with Git command line tool.
 For more infos: https://github.com/tpope/vim-fugitive
 
-### Gitgutter
-Gitgutter is a plugin to show git diff in sign column (with **+** for new lines, **~** for change lines, and **-** for remove lines).
-For more infos: https://github.com/airblade/vim-gitgutter
-
 #### Some commands 
 | Command | Descriptions | Original |
 |---------|-------------|----------|
@@ -113,6 +110,10 @@ For more infos: https://github.com/airblade/vim-gitgutter
 | ,gb | git blame | :Gblame |
 | ,gd | git diff | :Gvdiff |
 | ,gr | git remove | :Gremove |
+
+### Gitgutter
+Gitgutter is a plugin to show git diff in sign column (with **+** for new lines, **~** for change lines, and **-** for remove lines).
+For more infos: https://github.com/airblade/vim-gitgutter
 
 ### Airline
 Airline is a plugin to enhances the status bar.
@@ -191,6 +192,24 @@ For more infos: https://github.com/kien/ctrlp.vim
 |---------|-------------|----------|
 | ,e | Find and open File  | :CtrlP |
 | ,b | Find file on buffer | :CtrlpBuffer |
+
+### Ack
+Front for the Perl module App::Ack. This is a badass search plugin.
+For more infos: https://github.com/mileszs/ack.vim
+
+#### Some commands
+For search:
+```
+:Ack [options] {pattern} [{directories}]
+```
+| Command | Descriptions |
+|---------|--------------|
+| O | Open and close quickfix window |
+| go | preview file (open but maintain focus on results) |
+| t | open in new tab (T same but silently) |
+| h | open in horizontal split (H same but silently) |
+| v | open in vertical split (V same but silently) |
+| q | close the quickfix window |
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />

@@ -47,6 +47,7 @@ NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'mileszs/ack.vim'
 
 " Python Bundle
 NeoBundle "davidhalter/jedi-vim"
@@ -248,7 +249,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:UltiSnipsEditSplit="vertical"
 
-" jedi-vim
+"" jedi-vim
 let g:jedi#popup_on_dot = 0
 let g:jedi#goto_assignments_command = "<leader>g"
 let g:jedi#goto_definitions_command = "<leader>d"
@@ -257,7 +258,7 @@ let g:jedi#usages_command = "<leader>n"
 let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "0"
 
-" Tagbar
+"" Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
