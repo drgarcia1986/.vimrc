@@ -63,6 +63,9 @@ vim +NeoBundleInstall +qall
 | P | Past from clipboard |
 | XX | Cut to clipboard |
 | ,. | Set current dir as working dir |
+| ,z or ,q | Previous buffer |
+| ,x or ,w | Next buffer |
+| ,c | Close buffer |
 
 ## Plugins
 ### NERDTree
