@@ -55,6 +55,12 @@ vim +NeoBundleInstall +qall
 | zf10j | Make a folder in next 10 lines |
 | zo | Open folder |
 
+### Marks
+| Command | Descriptions |
+|---------|--------------|
+| ma | Create mark **a** on current cursor location |
+| 'a | Go to mark **a** |
+
 ## Custom commands shortcut
 | Command | Descriptions |
 |---------|--------------|
