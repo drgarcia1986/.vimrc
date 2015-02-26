@@ -245,7 +245,7 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_python_checkers=['python', 'flake8']
 let g:airline#extensions#tagbar#enabled = 1
-let g:syntastic_python_flake8_post_args='--ignore=W391,E501'
+let g:syntastic_python_flake8_post_args='--ignore=E501'
 
 "" Vim Shell
 let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
