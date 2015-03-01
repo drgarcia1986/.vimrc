@@ -200,6 +200,11 @@ For more infos: https://github.com/kien/ctrlp.vim
 Front for the Perl module App::Ack. This is a badass search plugin.
 For more infos: https://github.com/mileszs/ack.vim
 
+#### Install Ack ubuntu
+```
+sudo apt-get install ack-grep
+```
+
 #### Some commands
 For search:
 ```
