@@ -196,6 +196,7 @@ noremap <leader>c :bd<CR>
 " Plugins Settings
 "*****************************************************************************
 "" NERDTree
+let g:NERDTreeDirArrows=0
 let g:NERDTreeChDirMode=2
 let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
 let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
