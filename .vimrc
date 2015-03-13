@@ -54,6 +54,9 @@ NeoBundle "davidhalter/jedi-vim"
 NeoBundle "majutsushi/tagbar"
 NeoBundle "Yggdroot/indentLine"
 
+" Dockerfile
+NeoBundle "ekalinin/Dockerfile.vim"
+
 call neobundle#end()
 NeoBundleCheck
 
