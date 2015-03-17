@@ -31,6 +31,7 @@
     * [IndentLine](#indentline)
     * [Ctrlp](#ctrlp)
 	* [Ack](#ack)
+	* [Dockerfile](#dockerfile)
 * [References](#references)
 
 ## Installation
@@ -224,6 +225,11 @@ For search:
 | h | open in horizontal split (H same but silently) |
 | v | open in vertical split (V same but silently) |
 | q | close the quickfix window |
+
+### Dockerfile
+Syntax for Dockerfile.
+For more infos: https://github.com/ekalinin/Dockerfile.vim
+
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />
