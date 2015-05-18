@@ -199,7 +199,7 @@ noremap <leader>w :bn<CR>
 noremap <leader>c :bd<CR>
 
 "" Remove highlight
-noremap <leader>h :nohl<CR>
+nnoremap <silent> <leader><space> :noh<cr>
 
 "*****************************************************************************
 " Plugins Settings

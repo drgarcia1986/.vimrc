@@ -74,7 +74,7 @@ vim +NeoBundleInstall +qall
 | ,z or ,q | Previous buffer |
 | ,x or ,w | Next buffer |
 | ,c | Close buffer |
-| ,h | Remove highlight |
+| ,space | Remove highlight |
 
 ## Plugins
 ### NERDTree
