@@ -54,8 +54,11 @@ NeoBundle "davidhalter/jedi-vim"
 NeoBundle "majutsushi/tagbar"
 NeoBundle "Yggdroot/indentLine"
 
-" Dockerfile
+" Docker Bundle
 NeoBundle "ekalinin/Dockerfile.vim"
+
+" Go Bundle
+NeoBundle "fatih/vim-go"
 
 call neobundle#end()
 NeoBundleCheck
@@ -194,6 +197,9 @@ noremap <leader>w :bn<CR>
 
 "" Close buffer
 noremap <leader>c :bd<CR>
+
+"" Remove highlight
+noremap <leader>h :nohl<CR>
 
 "*****************************************************************************
 " Plugins Settings

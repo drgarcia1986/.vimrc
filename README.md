@@ -32,6 +32,7 @@
     * [Ctrlp](#ctrlp)
 	* [Ack](#ack)
 	* [Dockerfile](#dockerfile)
+	* [Vim Go](#vim-go)
 * [References](#references)
 
 ## Installation
@@ -73,6 +74,7 @@ vim +NeoBundleInstall +qall
 | ,z or ,q | Previous buffer |
 | ,x or ,w | Next buffer |
 | ,c | Close buffer |
+| ,h | Remove highlight |
 
 ## Plugins
 ### NERDTree
@@ -230,6 +232,9 @@ For search:
 Syntax for Dockerfile.
 For more infos: https://github.com/ekalinin/Dockerfile.vim
 
+### Vim-go
+A powerfull plugin for golang development.
+For more infos: https://github.com/fatih/vim-go
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />
