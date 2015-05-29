@@ -33,6 +33,7 @@
 	* [Ack](#ack)
 	* [Dockerfile](#dockerfile)
 	* [Vim Go](#vim-go)
+    * [WakaTime](#wakatime)
 * [References](#references)
 
 ## Installation
@@ -235,6 +236,10 @@ For more infos: https://github.com/ekalinin/Dockerfile.vim
 ### Vim-go
 A powerfull plugin for golang development.
 For more infos: https://github.com/fatih/vim-go
+
+### WakeTime
+Fully automatic time tracking for Vim.
+For more infos: https://wakatime.com
 
 ## References
 [Vim Bootstrap](https://github.com/avelino/vim-bootstrap)<br />

@@ -60,6 +60,9 @@ NeoBundle "ekalinin/Dockerfile.vim"
 " Go Bundle
 NeoBundle "fatih/vim-go"
 
+" Wakatime
+NeoBundle "wakatime/vim-wakatime"
+
 call neobundle#end()
 NeoBundleCheck
 
