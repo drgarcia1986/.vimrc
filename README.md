@@ -237,7 +237,7 @@ For more infos: https://github.com/ekalinin/Dockerfile.vim
 A powerfull plugin for golang development.
 For more infos: https://github.com/fatih/vim-go
 
-### WakeTime
+### WakaTime
 Fully automatic time tracking for Vim.
 For more infos: https://wakatime.com
 
