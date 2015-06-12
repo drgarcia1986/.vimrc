@@ -204,6 +204,9 @@ noremap <leader>c :bd<CR>
 "" Remove highlight
 nnoremap <silent> <leader><space> :noh<cr>
 
+"" auto syntax for *.md files
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 "*****************************************************************************
 " Plugins Settings
 "*****************************************************************************
