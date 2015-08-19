@@ -297,3 +297,26 @@ cnoremap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 noremap <leader>b :CtrlPBuffer<CR>
 let g:ctrlp_map = ',e'
 let g:ctrlp_open_new_file = 'r'
+
+"**********************************************************************************************
+" Custom functions
+"**********************************************************************************************
+fu! GenerateUUID()
+
+python << EOF
+from uuid import uuid4
+
+import vim
+
+# output a uuid to the vim variable for insertion below
+vim.command('let generatedUUID = "{}"'.format(uuid4()))
+
+EOF
+
+" insert the python generated uuid into the current cursor's position
+:execute "normal i" . generatedUUID . ""
+
+endfunction
+
+"initialize the generateUUID function here and map it to a local command
+noremap <leader>r :call GenerateUUID()<CR>

@@ -76,6 +76,7 @@ vim +NeoBundleInstall +qall
 | ,x or ,w | Next buffer |
 | ,c | Close buffer |
 | ,space | Remove highlight |
+| ,r | Generate UUID string |
 
 ## Plugins
 ### NERDTree
