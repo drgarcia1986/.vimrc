@@ -319,4 +319,4 @@ EOF
 endfunction
 
 "initialize the generateUUID function here and map it to a local command
-noremap <leader>r :call GenerateUUID()<CR>
+noremap <leader>U :call GenerateUUID()<CR>
