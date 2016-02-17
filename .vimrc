@@ -15,6 +15,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+set softtabstop=4
+set smarttab
 
 set backspace=eol,start,indent
 set background=dark
