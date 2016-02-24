@@ -31,6 +31,7 @@ set noswapfile
 
 " netrw
 let g:netrw_list_hide= '.*\.swp$,.*\.pyc'
+let g:netrw_localrmdir="rm -r"
 
 " search settings
 set hlsearch
