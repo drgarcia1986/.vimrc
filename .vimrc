@@ -48,7 +48,7 @@ augroup END
 " Visual settings "
 """""""""""""""""""
 " syntax highlight
-colorscheme wellsokai
+colorscheme molokai
 
 " syntax highlight
 syntax on
@@ -59,3 +59,9 @@ highlight CursorLine ctermbg=237
 
 " show linenumber
 set nu
+
+" Colors
+set t_Co=256
+
+" auto syntax for *.md files
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
